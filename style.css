@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #E04E4E;
+}
+
+main {
+    max-width: 99vw;
+    height: 1250px;
+    background: #E04E4E;
+    font-size: 21px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    position: absolute;
+    z-index: 2;
+    padding-left: 25px;
+    translate: 0px -120px;
+    align-items: center;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+
+nav ul h2 a {
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+
+h2 {
+    width: 130px;
+}
+
+.photo1 {
+    display: flex;
+    width: 185px;
+    height: 340px;
+}
+
+.photo2 {
+    display: flex;
+    width: 185px;
+    height: 340px;
+    translate: 106% -100%;
+}
+
+.photo3 {
+    display: flex;
+    width: 185px;
+    height: 340px;
+    translate: 0% -100%;
+}
+
+.photo4 {
+    display: flex;
+    width: 185px;
+    height: 340px;
+    translate: 106% -200%;
+}
+
+.photo5 {
+    display: flex;
+    width: 185px;
+    height: 340px;
+    translate: 0% -200%;
+}
+
+.photo6 {
+    display: flex;
+    width: 185px;
+    height: 340px;
+    translate: 106% -300%;
+}
+
+.photo7 {
+    display: flex;
+    width: 200px;
+    height: 189px;
+    translate: 0% -537%;
+}
+
+.active {
+    display: flex;
+    border-bottom: solid 3px #FFFFFF;
+    border-radius: 3px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #353535;
+    width: 99.9vw;
+    height: 170px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.instagram {
+    translate: 175px 10px;
+}
+
+.link {
+    color: #FFFFFF;
+}
+
+.insta {
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    translate: 95px 60px;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.bf {
+    display: flex;
+    height: 20px;
+    font-size: 17px;
+    font-family: 'Anonymous Pro', monospace;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    text-align: center;
+    translate: -75px 97px;
+    color: #FFFFFF;
+    border-top: solid 2px #FFFFFF;
+    border-radius: 3px;
+    padding-top: 13px;
+}
